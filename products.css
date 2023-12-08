@@ -1,0 +1,39 @@
+.p1 {
+  padding: 80px 0 10px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: var(--berkeley-blue);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.p1-overlay {
+  position: absolute;
+  background: var(--berkeley-blue);
+  box-shadow: 300px -200px 12000px #032044;
+  border-radius: 100px;
+  transform: rotate(30deg);
+  width: 90vh;
+  height: 90vh;
+  right: 30%;
+  z-index: 0;
+}
+.p1p1 {
+  z-index: 1;
+  margin: auto;
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+}
+.p1p1 h1 {
+  font-size: var(--h1);
+  margin: 10px 0 15px;
+}
+.p1p1 p {
+  margin-bottom: 20px;
+  font-size: var(--p2);
+}
+@media (max-width: 768px) {
+}
